@@ -1,7 +1,7 @@
 [build]
   publish = "public"
   command = "npm run build"
-  functions = "lambda"
+  functions = "functions"
 [build.environment]
   NODE_VERSION = "12"
   YARN_VERSION = "1.22.4"
